@@ -1,0 +1,2 @@
+error:
+    json_format_invalid: El campo no tiene el formato JSON

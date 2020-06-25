@@ -1,0 +1,11 @@
+list:
+    label_extra_data: Extra Data
+    
+show:
+    label_extra_data: Extra Data
+    
+form:
+    label_extra_data: Extra Data
+    
+help:
+    json_format: Formato JSON

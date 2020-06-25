@@ -1,0 +1,8 @@
+services:
+    extra_data.sonata_admin_configure.listener:
+       class: ExtraDataBundle\EventListener\SonataAdminConfigureListener
+       arguments: ["@translator"]
+       tags:
+           - { name: kernel.event_listener, event: sonata.admin.event.configure.form, method: addOptions }
+           - { name: kernel.event_listener, event: sonata.admin.event.configure.show, method: addTemplate }
+           - { name: kernel.event_listener, event: sonata.admin.event.configure.list, method: addTemplate }

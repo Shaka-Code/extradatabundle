@@ -1,0 +1,8 @@
+{
+    "name": "ik/extra-data-bundle",
+    "description": "Flowdat 3 Extra Data Bundle",
+    "keywords": ["Admin Generator", "admin", "extra-data", "bundle"],
+    "autoload": {
+        "psr-4": { "ExtraDataBundle\\": "" }
+    }
+}
